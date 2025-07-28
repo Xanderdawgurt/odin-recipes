@@ -1,0 +1,48 @@
+ *,
+ *::before,
+ *::after {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-color: rgb(45, 46, 40);
+    color: dimgray; 
+    font-family: Garamond, Georgia, 'Times New Roman'; 
+}
+
+ .header,
+ .para {
+    text-align: center;
+    background-color: black;
+ }
+
+ .header.one {
+    margin: 20px auto;
+    width: 400px;
+    height: 50px;
+ }
+
+ .image.one {
+    display: block;
+    margin: 12px auto 5px;
+ }
+ .header.two, 
+ .header.three {
+    width: 250px; 
+    margin: 12px auto;
+ }
+
+ .header.two {
+    margin-top: -3px;
+ }
+
+ .para.one {
+    width: 700px;
+    margin: -7px auto 15px auto;
+ }
+
+ .list.one {
+    margin: 15px auto;
+    display: block;
+    width: 300px;
+ }
