@@ -20,6 +20,7 @@
     margin: 20px auto;
     width: 400px;
     height: 50px;
+    border: 5px grey dotted;
  }
 
  .image.one {
@@ -45,4 +46,8 @@
     margin: 15px auto;
     display: block;
     width: 300px;
+ }
+
+ .brheader.one {
+    text-align: center;
  }
